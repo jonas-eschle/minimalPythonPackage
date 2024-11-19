@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling>=1.17.1", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "examplepkg"
+description = "Example pkg"
+readme = "README.md"
+author = "John Doe"
+author_email = "john.doe@g.mail.com"
+
+requires-python = ">=3.9"
+
+dependencies = ["zfit>=0.20", "pandas", "numpy"]
+version = "0.1.0"
+
+
+
