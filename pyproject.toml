@@ -12,7 +12,7 @@ author_email = "john.doe@g.mail.com"
 
 requires-python = ">=3.9"
 
-dependencies = ["zfit>=0.20", "pandas", "numpy"]
+dependencies = ["zfit>=0.20", "pandas", "numpy", "mplhep", "zfit-physics"]
 version = "0.1.0"
 
 
