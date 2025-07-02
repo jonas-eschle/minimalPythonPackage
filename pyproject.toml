@@ -2,6 +2,8 @@
 requires = ["hatchling>=1.17.1", "hatch-vcs"]
 build-backend = "hatchling.build"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/examplepkg"]
 
 [project]
 name = "examplepkg"
